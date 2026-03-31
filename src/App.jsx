@@ -13,9 +13,12 @@ import { useState, useEffect, createContext, useContext } from "react";
    CONFIG
 ═══════════════════════════════════════════════════════════════ */
 const CFG = {
-  SCRIPT_URL: "/api/sheets",
-  APP_NAME:   "TiffinBox",
+  SCRIPT_URL:      "/api/sheets",
+  PROVIDER_MOBILE: "9876500000",   // ← YOUR mobile number (provider login)
+  APP_NAME:        "YourBrandName",
+  DEMO_USER:       { mobile: "9999999999", password: "1234" },
 };
+```
 
 /* ═══════════════════════════════════════════════════════════════
    API
